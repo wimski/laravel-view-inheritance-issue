@@ -41,6 +41,13 @@
 
                 </div>
             </div>
+
+            <h2>Nesting</h2>
+            @include('nesting.grand-child')
+
+            @section('nesting')
+                <p>A section with the same name as in another view, but without extension and totally unrelated.</p>
+            @show
         </div>
     </body>
 </html>
