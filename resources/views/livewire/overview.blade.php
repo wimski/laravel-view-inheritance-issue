@@ -11,4 +11,18 @@
             />
         </li>
     @endforeach
+    <li>
+        <livewire:item
+            :key="'3'"
+            :abstractValue="'thing'"
+            :concreteValue="'stuff'"
+        />
+    </li>
+    <li>
+        <livewire:item
+            :key="'4'"
+            :abstractValue="'test'"
+            :concreteValue="'me'"
+        />
+    </li>
 </ul>

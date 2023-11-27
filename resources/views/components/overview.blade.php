@@ -10,4 +10,16 @@
             />
         </li>
     @endforeach
+    <li>
+        <x-item
+            :abstractValue="'thing'"
+            :concreteValue="'stuff'"
+        />
+    </li>
+    <li>
+        <x-item
+            :abstractValue="'test'"
+            :concreteValue="'me'"
+        />
+    </li>
 </ul>

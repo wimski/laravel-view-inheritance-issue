@@ -21,4 +21,16 @@
             ])
         </li>
     @endforeach
+    <li>
+        @include('partials.item', [
+            'abstractValue' => 'thing',
+            'concreteValue' => 'stuff',
+        ])
+    </li>
+    <li>
+        @include('partials.item', [
+            'abstractValue' => 'test',
+            'concreteValue' => 'me',
+        ])
+    </li>
 </ul>
